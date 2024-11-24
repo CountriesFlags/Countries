@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans';
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+}
+
+.flag {
+  width: 264px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.body {
+  background-color: #202c36;
+}
+
+.Dark_Mode {
+  color: #ffffff;
+}
+
+.Header_Website_Home_page {
+  height: 100%;
+  height: 80px;
+  background-color: #2b3844;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 80px;
+}
+
+.header-linkWrapper {
+  position: absolute;
+  height: 24px;
+  left: 305px;
+  right: 304px;
+  top: 28px;
+  bottom: 28px;
+}
+
+.header-link {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 66px;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header-link:hover {
+  color: #00ccff;
+}
+
+.header-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #00ccff;
+  transition: width 0.3s ease;
+}
+
+.header-link:hover::after {
+  width: 100%;
+}
+
+.header__btn {
+  background-color: #2b3844;
+  border-radius: 5px;
+  border: 0.8px solid #2e3b46;
+  width: 130px;
+  height: 50px;
+}
+
+.header__btn:hover {
+  background-color: #2e3b46;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.header_website_right_h {
+  display: flex;
+  gap: 8px;
+  margin-left: 1124px;
+}
+
+.Luna {
+  width: 20px;
+  height: 20px;
+}
+
+.header_website_h {
+  display: flex;
+  position: absolute;
+  width: 235px;
+  height: 29px;
+  color: #ffffff;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0px;
+  margin-top: 23px;
+  margin-left: 81px;
+  margin-bottom: 28px;
+  flex-direction: column-reverse;
+}
+
+.search {
+  width: 480px;
+  height: 56px;
+  background-color: #2b3844;
+  margin: 48px 80px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.search_img {
+  width: 18px;
+  height: 18px;
+}
+
+.input_main_sec1 {
+  background-color: transparent;
+  width: 138px;
+  height: 15px;
+  border: none;
+}
+
+.Card_sec1 {
+  margin-bottom: 45px;
+}
+
+.input_main_sec1::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.card_germany_home {
+  width: 264px;
+  height: 336px;
+  background-color: #2b3844;
+  border-radius: 15px;
+}
+
+.Germany_flag_home_page {
+  width: 100%;
+}
+
+.Germany_text {
+  width: 77px;
+  height: 26px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 24px;
+  display: flex;
+}
+
+.Population_Germany {
+  color: #ffffff;
+}
+
+.Region {
+  color: #ffffff;
+}
+
+.Capital {
+  color: #ffffff;
+}
+
+.div_img_german {
+  margin-bottom: 24px;
+}
+
+.Gerany_text2 {
+  margin-top: 16px;
+  margin-left: 24px;
+  row-gap: 8px;
+}
+
+.stroka1 {
+  gap: 75px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+.card_Amerika_home {
+  width: 264px;
+  height: 336px;
+  background-color: #2b3844;
+  border-radius: 15px;
+}
+
+.Amerika_text_color {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 24px;
+  margin-top: 24px;
+}
+
+.img_Amerika_card {
+  width: 100%;
+}
+
+.Population_Amerika {
+  color: #ffffff;
+}
+
+.Region_Amerika {
+  color: #ffffff;
+}
+
+.Capital_Amerika {
+  color: #ffffff;
+}
+
+.text2_Amerika {
+  margin: 24px;
+}
+
+.Brazil_Home_card {
+  width: 264px;
+  height: 336px;
+  background-color: #2b3844;
+  border-radius: 15px;
+}
+
+.Brazil_text_font {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.Brazil_Card_text2 {
+  color: #ffffff;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 375px) {
+  .header_website_h {
+    position: absolute;
+    width: 137px;
+    height: 20px;
+    left: 4.27%;
+    right: 59.2%;
+    top: 30px;
+    bottom: 30px;
+    color: #ffffff;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .header_website_right_h {
+    margin-right: 12px;
+    margin-left: 124px;
+    display: flex;
+  }
+
+  .search {
+    width: 343px;
+    height: 48px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 104px;
+    text-align: center;
+  }
+
+  .card_germany_home {
+    border-radius: 5px;
+    width: 264px;
+    height: 336px;
+  }
+
+  .Germany_flag_home_page {
+    width: 267px;
+    height: 160px;
+  }
+}
